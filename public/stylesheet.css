@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+body {
+  align: center;
+  margin: 2cm 4cm 3cm 4cm;
+  /*background-color: #D5F5E3;*/
+  background-image: url("backgroundPage.jpg");
+  font-family: 'Raleway';
+  line-height: 150%;
+}
+
+p {
+  background-color: #fdf5e6;
+  border: 15px solid #fdf5e6;
+  border-radius: 10px;
+}
+
+p2 { /* For copyright text in bottom left*/
+  font-size: x-small;
+}
+img {
+  display: block;
+  margin: auto;
+
+}
+
+a { /* links to other pages */
+  margin: 200px 100px 200px 100px;
+  text-decoration: none;
+  text-align: justify;
+  font-size: 125%;
+  color: black;
+}
+
+a:hover{
+  color: white;
+}
+form {
+  direction: rtl;
+}
+input {
+  display: block;
+  direction: ltr;
+}

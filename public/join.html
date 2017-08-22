@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <link rel="stylesheet" type="text/css" href="stylesheet.css">
+      <link rel="stylesheet" type="text/css" href="buttonstyle.css">
+      <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+      <script type="text/javascript" src="join.js"></script>
+
+      <title>Join Project</title>
+ </head>
+ <body onload="start()">
+   <img src="gllogo.png" alt=Logo>
+   <div class="dropdown">
+     <button class="dropbtn">...</button>
+     <div class="dropdown-content">
+       <a href="index.html">Home</a>
+       <a href="login.html">Login</a>
+       <a href="userdash.html">User Dashboard</a>
+     </div>
+   </div>
+   <div id="join">
+     <h1>Join a Project:</h1>
+     <p>Project Pin: </p>
+     <input type="text" id="retrieve"><br><br>
+     <button onclick="findProj()">Join</button>
+     <a href="index.html">Create Group</a>
+   </div>
+ </body>
+</html>
